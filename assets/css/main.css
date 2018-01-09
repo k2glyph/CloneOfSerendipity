@@ -1,0 +1,112 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background: #34495e;
+	display: flex;
+	position: absolute;
+	left:15%;
+	right:15%;
+}
+#wrapper {
+	margin:50px auto;
+	background: white;
+	width: 100%;
+}
+#wrapper header {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: space-between;
+}
+
+.social ul{
+	display: inline-flex;
+}
+.social ul li {
+	list-style-type: none;
+	margin:4px;
+}
+nav {
+	background: #c0392b;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+    margin: 0 -9px;
+
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li, .sub ul li {
+	list-style-type: none;
+	padding: 10px;
+}
+nav ul .sub {
+	display: none;
+	margin-top: 10px;
+	min-width: 200px;
+	flex-direction: column;
+	background: #2c3e50;
+	position:absolute;
+	align-items: flex-start;
+}
+nav ul li a, nav ul li {
+	color:#ecf0f1;
+	text-decoration: none;
+}
+nav ul li: hover {
+	display:flex;
+}
+nav ul li:hover {
+	color: black;
+}
+nav ul .sub li:hover {
+	background: black;
+	color:white;
+	width:90%;
+}
+nav ul li:hover .sub  {
+    display:flex;
+    flex-direction:column;
+ }
+
+section article {
+	font-family: 'MerriweatherRegular';
+	font-size: 18px;
+    line-height: 32px;
+    color: #a0a0a0;
+    text-align: center;
+    margin-top:40px;
+}
+section article .description {
+	margin:40px;
+}
+section img {
+	width: 100%;
+}
+section article .title {
+	font-size: 30px;
+	color:#c0392b;
+}
+section article .subtitle {
+	font-size: 12px;
+}
+section article .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin:0px;
+	padding:0px;
+}
+section article .gallery img {
+	width:252px;
+	height: 252px;
+	/*padding:10px;*/
+}
+footer {
+	background: black;
+}
